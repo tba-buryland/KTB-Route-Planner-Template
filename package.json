@@ -1,7 +1,7 @@
 {
-  "name": "limaru-site",
-  "version": "0.1.0",
-  "private": true,
+  "name": "konno-tripplanner",
+  "version": "1.2",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",

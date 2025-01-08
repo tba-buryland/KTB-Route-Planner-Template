@@ -2,7 +2,7 @@ import ContentWidth from "@/components/ContentWidth";
 import Link from "next/link";
 import Image from "next/image";
 import { nav_links } from "@/constants/links";
-import LimaruLogo from "@/public/limaru_logo.png";
+import LimaruLogo from "@/public/ktbkonno.png";
 import React, { useState } from "react";
 
 /* Main Categories */
@@ -14,8 +14,8 @@ const MainCategories = ({ onLinkFocusChange }) => {
           key={link.text}
           href={link.href}
           target={link.newtab ? "_blank" : ""}
-          className="hover:border-b-4 border-amber-400"
-          onMouseEnter={() => onLinkFocusChange(1)}
+          className="hover:border-b-4 border-cyan-700"
+          // onMouseEnter={() => onLinkFocusChange(1)}
           onFocus={() => onLinkFocusChange(1)}
           onBlur={() => onLinkFocusChange(-1)}
         >
